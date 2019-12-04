@@ -16,7 +16,7 @@ $headers[] = 'X-Location: -6.405821,106.064193';
 echo "\n";
 echo "[+] Password : ";
 $pass = trim(fgets(STDIN));
-if($pass == "newyork"){
+if($pass == "1"){
     echo "[+] NOMOR : ";
     $number = trim(fgets(STDIN));
     $numbers = $number[0].$number[1];
